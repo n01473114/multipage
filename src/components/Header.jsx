@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import MenuBttn from "./MenuBttn";
+import myLogo from "./src/img/logo_js.svg";
 
 function Header() {
     return (
         <header>
             <Link to="/"><div className="logoContainer">
-                <object className="logoObj" data="./src/img/logo_js.svg" width="50" height="50"></object>
+                <object className="logoObj" data={myLogo} width="50" height="50"></object>
             </div></Link>
             <nav id="navText">
                 <ul>

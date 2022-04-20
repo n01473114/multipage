@@ -1,3 +1,5 @@
+import audiLogo from "./src/img/audi-preloader_v01.gif";
+
 function Portfolio() {
     return (
         <>
@@ -30,7 +32,7 @@ function Portfolio() {
                 <section>
                     <article>
                         <figure>
-                            <img src="./src/img/audi-preloader_v01.gif" alt="Audi Preloader" />
+                            <img src={audiLogo} alt="Audi Preloader" />
                         </figure>
                     </article>
                     <article>
