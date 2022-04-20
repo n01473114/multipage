@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import MenuBttn from "./MenuBttn";
-import myLogo from "./src/img/logo_js.svg";
+import myLogo from "../img/logo_js.svg";
 
 function Header() {
     return (

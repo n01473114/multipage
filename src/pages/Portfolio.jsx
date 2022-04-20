@@ -1,4 +1,4 @@
-import audiLogo from "./src/img/audi-preloader_v01.gif";
+import audiLogo from "../img/audi-preloader_v01.gif";
 
 function Portfolio() {
     return (
