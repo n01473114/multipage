@@ -205,7 +205,7 @@ aside a:hover {
     transform: rotate(-45deg) translate(0, -1px);
 }
 
-#menuBttn {
+#menuContainer {
     position: fixed;
     top: 5rem;
     left: 0;
@@ -218,13 +218,13 @@ aside a:hover {
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 }
 
-#menuBttn li {
+#menuContainer li {
     padding: 10px 0;
     font-size: 1.5rem;
     list-style: none;
 }
 
-#menuBttn li a:hover {
+#menuContainer li a:hover {
     color: var(--background-b);
 }
 

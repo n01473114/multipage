@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import MenuBttn from "./MenuBttn";
+import MenuContainer from "./MenuContainer";
 import myLogo from "../img/logo_js.svg";
 
 function Header() {
@@ -17,7 +17,7 @@ function Header() {
             </nav>
             <a href="tel:+16479467300"><button className="bttn">📞</button></a>
 
-            <MenuBttn />
+            <MenuContainer />
 
         </header >
     );

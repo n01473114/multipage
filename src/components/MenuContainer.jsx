@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function MenuBttn() {
+function MenuContainer() {
 
 
     return (
@@ -10,7 +10,7 @@ function MenuBttn() {
                 <span></span>
                 <span></span>
                 <span></span>
-                <ul id="menuBttn">
+                <ul id="menuContainer">
                     <li><Link to="/skills">Skills</Link></li>
                     <li><Link to="/experience">Experience</Link></li>
                     <li><Link to="/portfolio">Portfolio</Link></li>
@@ -20,4 +20,4 @@ function MenuBttn() {
     );
 }
 
-export default MenuBttn;
+export default MenuContainer;
